@@ -1,0 +1,56 @@
+{
+  "groups":{
+    "Leishmania":["LmjF.1","LbrM.1"],
+    "Entamoeba":["Ehis.1"],
+    "Trypanosoma":["Tb927.1"]
+  },
+  "species":{
+    "LbrM.1":{
+      "chr_mapping":{
+        "LbrM.01":"01"
+      },
+      "augustus_model":true,
+      "name":"Leishmania braziliensis chromosome 1",
+      "nof_chromosomes":1,
+      "nof_coding_genes":76,
+      "nof_genes":76,
+      "nof_regions":1,
+      "chromosome_pattern":"LbrM.([0-9.]+)$"
+    },
+    "Tb927.1":{
+      "chr_mapping":{
+        "Tb927_01_v5.1":"01"
+      },
+      "augustus_model":true,
+      "name":"Trypanosoma brucei TREU927 chromosome 1",
+      "nof_chromosomes":1,
+      "nof_coding_genes":471,
+      "nof_genes":480,
+      "nof_regions":1,
+      "chromosome_pattern":"Tb927_(%d+)_v%d"
+    },
+    "LmjF.1":{
+      "chr_mapping":{
+        "LmjF.01":"01"
+      },
+      "nof_genes":85,
+      "nof_coding_genes":85,
+      "augustus_model":true,
+      "name":"Leishmania major Friedlin chromosome 1",
+      "snap_model":true,
+      "nof_chromosomes":1,
+      "nof_regions":1,
+      "chromosome_pattern":"LmjF.(%d+)"
+    },
+    "Ehis":{
+      "chr_mapping":[],
+      "augustus_model":true,
+      "name":"Entamoeba_histolytica HM1IMSS",
+      "nof_chromosomes":0,
+      "nof_coding_genes":8306,
+      "nof_genes":8333,
+      "nof_regions":841,
+      "chromosome_pattern":"Ehis_(%d+)"
+    }
+  }
+}
